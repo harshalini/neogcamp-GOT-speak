@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url(./images/imageedit_1_8343504780.png);
+    background-image: url(./images/GOTtext.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,9 +33,16 @@ nav {
     width: 30%;
 }
 
-img {
+#img {
     margin-left: -40%;
     width: 20%;
+    margin-bottom: 3rem;
+}
+
+#mirror-img {
+    margin-right: -40%;
+    width: 20%;
+    margin-top: -32%;
     margin-bottom: 3rem;
 }
 
@@ -75,10 +82,38 @@ img {
     height: 60px;
     padding-top: 1rem;
     padding-bottom: 2.4rem;
-    background-image: url(./images/got1.jpg);
+    background-color: black;
     color: white;
 }
 
 #footer h2 {
     margin: 0rem;
+}
+
+@media screen and (max-width: 400px) {
+    #para {
+        margin-bottom: 0;
+        margin-top: 12px;
+    }
+    #img {
+        margin-left: -60%;
+        width: 38%;
+        margin-top: -5%;
+    }
+    #mirror-img {
+        margin-right: -60%;
+        width: 38%;
+        margin-top: -66.5%;
+    }
+    #output {
+        margin-top: -38%;
+        width: 35%;
+    }
+    #txt-input {
+        width: 50%;
+    }
+    #footer {
+        padding-bottom: 5rem;
+        padding-top: 0;
+    }
 }
