@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+html,
+body {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(./images/imageedit_1_8343504780.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-translate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    font-size: xx-large;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-image: url(./images/got1.jpg);
+    color: white;
+}
+
+#txt-input,
+#output {
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+}
+
+img {
+    margin-left: -40%;
+    width: 20%;
+    margin-bottom: 3rem;
+}
+
+#output {
+    margin-top: -20%;
+    width: 30%;
+}
+
+#para {
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -9%;
+    border: solid 3px black;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+#btn-translate {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: black;
+    border: soild 3px brown;
+}
+
+#btn-translate:hover {
+    opacity: 0.7;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 3rem;
+    width: 100%;
+    height: 60px;
+    padding-top: 1rem;
+    padding-bottom: 2.4rem;
+    background-image: url(./images/got1.jpg);
+    color: white;
+}
+
+#footer h2 {
+    margin: 0rem;
+}
